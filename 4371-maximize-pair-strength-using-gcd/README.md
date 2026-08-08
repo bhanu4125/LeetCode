@@ -1,10 +1,9 @@
 <h2><a href="https://leetcode.com/problems/maximize-pair-strength-using-gcd">Maximize Pair Strength Using GCD</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code>.</p>
 
-<p>Choose <strong>exactly one</strong> pair of <strong>distinct</strong> indices <code>i</code> and <code>j</code>. The <strong>strength</strong> of the pair is defined as <code>(nums[i] * nums[j]) / gcd(nums[i], nums[j])<sup>2</sup></code>.</p>
+<p>Choose exactly one pair of distinct indices <code>i</code> and <code>j</code>. The strength of the pair is defined as <code>(nums[i] * nums[j]) / <span data-keyword="gcd-function">gcd(nums[i], nums[j])</span><sup>2</sup></code>.</p>
 
-<p>Return the <strong>maximum</strong> strength over all possible pairs.</p>
+<p>Return the maximum strength over all possible pairs.</p>
 
-<p>The term <code>gcd(a, b)</code> denotes the <strong>greatest common divisor</strong> of <code>a</code> and <code>b</code>.</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
